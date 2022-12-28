@@ -21,6 +21,8 @@ packages = [{include = "django_next_cookie_cutter"}]
 python = "^3.10"
 django = "^4.1.4"
 djangorestframework = "^3.14.0"
+django-environ = "^0.9.0"
+psycopg2-binary = "^2.9.5"
 
 
 [tool.poetry.group.dev.dependencies]
