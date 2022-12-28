@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-next-cookie-cutter"
+version = "0.1.0"
+description = ""
+authors = ["fordneild <hanfordn35@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_next_cookie_cutter"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.4"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
