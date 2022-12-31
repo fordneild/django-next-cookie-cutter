@@ -1,0 +1,20 @@
+{
+  // TODO update this to the value of `where black`
+  "python.formatting.blackPath": "/Users/fordneild/Library/Caches/pypoetry/virtualenvs/django-next-cookie-cutter-407KA4Mn-py3.10/bin/black",
+  "python.formatting.provider": "black",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.indexing": true,
+  "python.analysis.packageIndexDepths": [
+    {
+      "name": "django",
+      "depth": 10,
+      "includeAllSymbols": true
+    },
+
+    {
+      "name": "rest_framework",
+      "depth": 10,
+      "includeAllSymbols": true
+    }
+  ]
+}
