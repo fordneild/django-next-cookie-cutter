@@ -1,6 +1,6 @@
 # django-next-cookie-cutter
 
-## Development
+## Setting up Local Development
 Install MacOS dependecies
 ```sh
 bundle install && brew bundle
@@ -17,4 +17,22 @@ Install dependecies
 ```
 poetry install
 ```
+## Running Development
+```sh
+just up
+```
+## Migrations
+To run migrations
+```sh
+just migrate
+```
+To make migrations
+```sh
+just makemigrations
+```
+To reset the database
+```sh
+just m reset_db
+```
+
 
